@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html class="home" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="description" content="lodash 是一个 JavaScript 的实用工具库, 表现一致性, 模块化, 高性能, 以及 可扩展.">
+		<meta name="keywords" content="lodash文档,lodash中文,lodash中文文档,Lodash,Lodashjs,underscore,underscorejs,javascript,lib,module">
+		<meta name="theme-color" content="#3492ff">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>Lodash 中文网</title>
+		<link href="https://lodash.com/icons/apple-touch-180x180.png" rel="apple-touch-icon" sizes="180x180">
+		<link href="https://github.com/lodash/lodash/commits/master.atom" rel="feed" type="application/atom+xml">
+		<link href="https://lodash.com/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+		<link href="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAABlBMVEVMaXExk//ImxjuAAAAAXRSTlMAQObYZgAAAA9JREFUeAFjIBLU/2MC0wALJgGAaiAmLQAAAABJRU5ErkJggg==" rel="icon" sizes="16x16" type="image/png">
+		<link href="https://lodash.com/manifest.webmanifest" rel="manifest">
+		<link href="https://lodash.com/icons/safari-pinned-tab-16x16.svg" rel="mask-icon" color="#3492ff">
+		<link href="https://lodash.com/docs/4.17.4" rel="prerender" pr="1.0">
+		<link href="static/css/main.css" rel="stylesheet">
+		<link rel="stylesheet" href="docs/static/font-awesome/css/font-awesome.min.css">
+		<!--<script type="text/javascript" async="" src="./static/js/linkid.js"></script>-->
+		<!--<script async="" src="static/js/boot.js"></script>-->
+		<!--<script src="static/js/analytics.js"></script>-->
+		<script>
+			var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "https://hm.baidu.com/hm.js?7b44a5d87559ee050b988103c4df65a1";
+			  var s = document.getElementsByTagName("script")[0]; 
+			  s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+	</head>
+
+	<body class="layout-default" style="">
+		<header>
+			<div class="container">
+				<div class="header-section logo-section">
+					<div class="logo">
+						<a href="http://lodash.net/" title="Lodash">Lodash</a>
+					</div>
+					<div class="header-group">
+						<h1>Lodash</h1>
+						<h2>一个 JavaScript 的实用工具库, 表现一致性, 模块化, 高性能, 以及可扩展。</h2></div>
+				</div>
+				<div class="header-section">
+					<a href="./docs/4.16.1.html" class="btn primary">中文文档</a>
+					<a href="https://github.com/lodash/lodash/wiki/FP-Guide" class="btn">函数式编程指南</a>
+				</div>
+			</div>
+		</header>
+		<div class="container main">
+			<section>
+				<div class="highlight js intro"><pre><div>_<span class="delimiter method">.</span><span class="name">defaults</span>({&nbsp;<span class="string">'a'</span>:&nbsp;<span class="numeric">1</span>&nbsp;}<span class="delimiter">,</span>&nbsp;{&nbsp;<span class="string">'a'</span>:&nbsp;<span class="numeric">3</span><span class="delimiter">,</span>&nbsp;<span class="string">'b'</span>:&nbsp;<span class="numeric">2</span>&nbsp;});</div><div><span class="comment">//&nbsp;→&nbsp;{&nbsp;'a':&nbsp;1,&nbsp;'b':&nbsp;2&nbsp;}</span></div><div>_<span class="delimiter method">.</span><span class="name">partition</span>([<span class="numeric">1</span><span class="delimiter">,</span>&nbsp;<span class="numeric">2</span><span class="delimiter">,</span>&nbsp;<span class="numeric">3</span><span class="delimiter">,</span>&nbsp;<span class="numeric">4</span>]<span class="delimiter">,</span>&nbsp;n&nbsp;<span class="type">=></span>&nbsp;n&nbsp;%&nbsp;<span class="numeric">2</span>);</div><div><span class="comment">//&nbsp;→&nbsp;[[1,&nbsp;3],&nbsp;[2,&nbsp;4]]</span></div></pre></div>
+			</section>
+			<section>
+				<p id="social">
+					<iframe frameborder="0" scrolling="0" allowtransparency="" class="btn-gh" src="static/assets/html/github-start.html"></iframe>
+					<iframe frameborder="0" scrolling="0" allowtransparency="" class="btn-gh" src="static/assets/html/github-fork.html"></iframe>
+				</p>
+			</section>
+			<section>
+				<h2>下载</h2>
+				<ul id="download-links">
+					<li><i class="fa fa-download" aria-hidden="true"></i>
+						<a href="https://raw.githubusercontent.com/lodash/lodash/4.17.4/dist/lodash.core.js">核心版</a> (
+						<a href="https://raw.githubusercontent.com/lodash/lodash/4.17.4/dist/lodash.core.min.js">~4kB gzipped</a>)</li>
+					<li><i class="fa fa-download" aria-hidden="true"></i>
+						<a href="https://raw.githubusercontent.com/lodash/lodash/4.17.4/dist/lodash.js">完整版</a> (
+						<a href="https://raw.githubusercontent.com/lodash/lodash/4.17.4/dist/lodash.min.js">~24kB gzipped</a>)</li>
+					<li><i class="fa fa-link" aria-hidden="true"></i>
+						<a href="https://www.jsdelivr.com/projects/lodash">访问 CDN</a>
+					</li>
+				</ul>
+				<p>
+					<span class="rwd-line">Lodash 遵循 <a href="https://raw.githubusercontent.com/lodash/lodash/4.17.4/LICENSE">MIT License</a> &amp; 支持现代化环境。</span> 
+					<span class="rwd-line">查看 <a href="https://github.com/lodash/lodash/wiki/Build-Differences">版本区别</a> &amp; 选择一个适合你的版本。</span>
+				</p>
+			</section>
+			<section>
+				<h2>使用</h2>
+				<p>浏览器中使用:</p>
+				<div class="highlight html"><pre>&lt;script&nbsp;src=<span class="string">"lodash.js"</span>&gt;&lt;/script&gt;</pre></div>
+				<p>使用npm安装:</p>
+				<div class="highlight shell"><pre><div>$&nbsp;npm&nbsp;i&nbsp;-g&nbsp;npm</div><div>$&nbsp;npm&nbsp;i&nbsp;--save&nbsp;lodash</div></pre></div>
+				<p>Node.js中使用:</p>
+				<div class="highlight js"><pre><div><span class="comment">//&nbsp;Load&nbsp;the&nbsp;full&nbsp;build.</span></div><div><span class="type">var</span>&nbsp;_&nbsp;=&nbsp;<span class="support">require</span>(<span class="string">'lodash'</span>);</div><div><span class="comment">//&nbsp;Load&nbsp;the&nbsp;core&nbsp;build.</span></div><div><span class="type">var</span>&nbsp;_&nbsp;=&nbsp;<span class="support">require</span>(<span class="string">'lodash/core'</span>);</div><div><span class="comment">//&nbsp;Load&nbsp;the&nbsp;FP&nbsp;build&nbsp;for&nbsp;immutable&nbsp;auto-curried&nbsp;iteratee-first&nbsp;data-last&nbsp;methods.</span></div><div><span class="type">var</span>&nbsp;fp&nbsp;=&nbsp;<span class="support">require</span>(<span class="string">'lodash/fp'</span>);</div><div>&nbsp;</div><div><span class="comment">//&nbsp;Load&nbsp;method&nbsp;categories.</span></div><div><span class="type">var</span>&nbsp;array&nbsp;=&nbsp;<span class="support">require</span>(<span class="string">'lodash/array'</span>);</div><div><span class="type">var</span>&nbsp;object&nbsp;=&nbsp;<span class="support">require</span>(<span class="string">'lodash/fp/object'</span>);</div><div>&nbsp;</div><div><span class="comment">//&nbsp;Cherry-pick&nbsp;methods&nbsp;for&nbsp;smaller&nbsp;browserify/rollup/webpack&nbsp;bundles.</span></div><div><span class="type">var</span>&nbsp;at&nbsp;=&nbsp;<span class="support">require</span>(<span class="string">'lodash/at'</span>);</div><div><span class="type">var</span>&nbsp;curryN&nbsp;=&nbsp;<span class="support">require</span>(<span class="string">'lodash/fp/curryN'</span>);</div></pre></div>
+				<p><strong>注:</strong><br>在 Node.js < 6 的 REPL 中不要声明特殊变量 "_"，安装 n_ 来代替。</p>
+			</section>
+			<section>
+				<h2>为什么要使用Lodash?</h2>
+				<p>
+					<span class="rwd-line">Lodash 使 JavaScript 更加方便解决数组、数字、对象、字符串等困难问题。</span> 
+					<span class="rwd-line">Lodash 模块化方法非常适合:</span>
+				</p>
+				<ul class="chevron">
+					<li>遍历数组、对象、字符串</li>
+					<li>操作和测试值</li>
+					<li>创建复合功能的函数</li>
+				</ul>
+			</section>
+			<section>
+				<h2>模块格式</h2>
+				<p>Lodash 可用在<a href="https://lodash.com/custom-builds">各种构建方式</a>和模块格式.</p>
+				<ul class="chevron">
+					<li>
+						<a href="https://www.npmjs.com/package/lodash">lodash</a> &amp;
+						<a href="https://www.npmjs.com/browse/keyword/lodash-modularized">per method packages</a>
+					</li>
+					<li>
+						<a href="https://www.npmjs.com/package/lodash-es">lodash-es</a>,
+						<a href="https://www.npmjs.com/package/babel-plugin-lodash">babel-plugin-lodash</a>, &amp;
+						<a href="https://www.npmjs.com/package/lodash-webpack-plugin">lodash-webpack-plugin</a>
+					</li>
+					<li>
+						<a href="https://github.com/lodash/lodash/tree/4.17.4-npm/fp">lodash/fp</a>
+					</li>
+					<li>
+						<a href="https://www.npmjs.com/package/lodash-amd">lodash-amd</a>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<h2>深入了解</h2>
+				<ul class="chevron">
+					<li>
+						<a href="https://github.com/lodash/lodash/blob/4.17.4/.github/CONTRIBUTING.md">贡献</a>
+					</li>
+					<li>
+						<a href="https://github.com/lodash/lodash/releases/tag/4.0.0">版本说明</a>
+					</li>
+					<li>
+						<a href="https://github.com/lodash/lodash/wiki">维基 (更新记录、路线图等等.)</a>
+					</li>
+				</ul>
+			</section>
+			<section>
+				<h2>兼容性</h2>
+				<p>
+					<span class="rwd-line">在Chrome 54-55, Firefox 49-50, IE 11, Edge 14, Safari 9-10, Node.js 6-7, &amp; PhantomJS 2.1.1测试通过。</span> 
+					<span class="rwd-line"><a href="https://saucelabs.com/u/lodash">浏览器自动化测试</a> 和 <a href="https://travis-ci.org/lodash">持续集成</a> 已经运作。</span>
+				</p>
+			</section>
+			<script async="" src="static/js/home.js"></script>
+		</div>
+		<footer>
+			<div class="container">
+
+			</div>
+		</footer>
+		<script async="" src="static/js/lodash.min.js"></script>
+		<audio controls="controls" style="display: none;"></audio>
+	</body>
+	<style type="text/css">
+		#yddContainer {
+			display: block;
+			font-family: Microsoft YaHei;
+			position: relative;
+			width: 100%;
+			height: 100%;
+			top: -4px;
+			left: -4px;
+			font-size: 12px;
+			border: 1px solid
+		}
+		
+		#yddTop {
+			display: block;
+			height: 22px
+		}
+		
+		#yddTopBorderlr {
+			display: block;
+			position: static;
+			height: 17px;
+			padding: 2px 28px;
+			line-height: 17px;
+			font-size: 12px;
+			color: #5079bb;
+			font-weight: bold;
+			border-style: none solid;
+			border-width: 1px
+		}
+		
+		#yddTopBorderlr .ydd-sp {
+			position: absolute;
+			top: 2px;
+			height: 0;
+			overflow: hidden
+		}
+		
+		.ydd-icon {
+			left: 5px;
+			width: 17px;
+			padding: 0px 0px 0px 0px;
+			padding-top: 17px;
+			background-position: -16px -44px
+		}
+		
+		.ydd-close {
+			right: 5px;
+			width: 16px;
+			padding-top: 16px;
+			background-position: left -44px
+		}
+		
+		#yddKeyTitle {
+			float: left;
+			text-decoration: none
+		}
+		
+		#yddMiddle {
+			display: block;
+			margin-bottom: 10px
+		}
+		
+		.ydd-tabs {
+			display: block;
+			margin: 5px 0;
+			padding: 0 5px;
+			height: 18px;
+			border-bottom: 1px solid
+		}
+		
+		.ydd-tab {
+			display: block;
+			float: left;
+			height: 18px;
+			margin: 0 5px -1px 0;
+			padding: 0 4px;
+			line-height: 18px;
+			border: 1px solid;
+			border-bottom: none
+		}
+		
+		.ydd-trans-container {
+			display: block;
+			line-height: 160%
+		}
+		
+		.ydd-trans-container a {
+			text-decoration: none;
+		}
+		
+		#yddBottom {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 22px;
+			line-height: 22px;
+			overflow: hidden;
+			background-position: left -22px
+		}
+		
+		.ydd-padding010 {
+			padding: 0 10px
+		}
+		
+		#yddWrapper {
+			color: #252525;
+			z-index: 10001;
+			background: url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ab20.png);
+		}
+		
+		#yddContainer {
+			background: #fff;
+			border-color: #4b7598
+		}
+		
+		#yddTopBorderlr {
+			border-color: #f0f8fc
+		}
+		
+		#yddWrapper .ydd-sp {
+			background-image: url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ydd-sprite.png)
+		}
+		
+		#yddWrapper a,
+		#yddWrapper a:hover,
+		#yddWrapper a:visited {
+			color: #50799b
+		}
+		
+		#yddWrapper .ydd-tabs {
+			color: #959595
+		}
+		
+		.ydd-tabs,
+		.ydd-tab {
+			background: #fff;
+			border-color: #d5e7f3
+		}
+		
+		#yddBottom {
+			color: #363636
+		}
+		
+		#yddWrapper {
+			min-width: 250px;
+			max-width: 400px;
+		}
+	</style>
+
+</html>
