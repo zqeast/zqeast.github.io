@@ -128,8 +128,9 @@ var ourPlan=document.getElementById('ourplan');
 var yidong=function(){
     var oevent=window.event||arguments[0];
     var chufa=oevent.srcElement||oevent.target;
-    var selfplanX=oevent.clientX-500;
+    var selfplanX=oevent.clientX-430;
     var selfplanY=oevent.clientY;
+    console.log("yidong", selfplanX, selfplanY);
     ourPlan.style.left=selfplanX-selfplan.plansizeX/2+"px";
     ourPlan.style.top=selfplanY-selfplan.plansizeY/2+"px";
 //    document.getElementsByTagName('img')[0].style.left=selfplanX-selfplan.plansizeX/2+"px";
@@ -172,7 +173,8 @@ var bianjie=function(){
     var oevent=window.event||arguments[0];
     var bodyobjX=oevent.clientX;
     var bodyobjY=oevent.clientY;
-    if(bodyobjX<505||bodyobjX>815||bodyobjY<0||bodyobjY>568){
+    // console.log("bianjie", bodyobjX, bodyobjY);
+    if(bodyobjX<455||bodyobjX>815||bodyobjY<0||bodyobjY>568){
         if(document.removeEventListener){
             mainDiv.removeEventListener("mousemove",yidong,true);
         }
